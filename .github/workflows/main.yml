@@ -1,9 +1,8 @@
-name: push docker image
+name: Publish Docker image
 
-on: 
+on:
   push:
-    branches:['main']
-
+    branches: ['main']
 jobs:
   push_to_registry:
     name: push docker image
